@@ -1,0 +1,26 @@
+{
+  "type": 1,
+  "target": "stepProgressUpdates",
+  "arguments": [
+    [
+      {
+        "runId": 1227,
+        "timelineId": "e0ba8c85-6a71-4e7a-9d7d-95d1e1a8feaf",
+        "parentRecordId": "481b465a-028a-5288-4fd6-a00f3f5392e9",
+        "stepRecordId": "41d2c66d-5887-5f8b-62c9-4fe763322fa6",
+        "stepNumber": 5,
+        "changeId": 7,
+        "stepCompleted": false
+      },
+      {
+        "runId": 1227,
+        "timelineId": "e0ba8c85-6a71-4e7a-9d7d-95d1e1a8feaf",
+        "parentRecordId": "481b465a-028a-5288-4fd6-a00f3f5392e9",
+        "stepRecordId": "415c4a34-2a9f-56b5-28d9-6bb8067555a3",
+        "stepNumber": 4,
+        "changeId": 7,
+        "stepCompleted": true
+      }
+    ]
+  ]
+}
