@@ -141,6 +141,7 @@ func (s *Server) doWorkAndBroadcast(workId string) {
 			Type:          1,
 			WorkId:        workId,
 			StepNumber:    step,
+			MaxSteps:      workInfo.MaxSteps,
 			StepCompleted: true,
 			Done:          false,
 		}
@@ -153,6 +154,7 @@ func (s *Server) doWorkAndBroadcast(workId string) {
 		Type:          1,
 		WorkId:        workId,
 		StepNumber:    workInfo.MaxSteps,
+		MaxSteps:      workInfo.MaxSteps,
 		StepCompleted: true,
 		Done:          true,
 	}
